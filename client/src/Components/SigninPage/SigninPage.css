@@ -1,0 +1,46 @@
+.Sign-main{
+    /* background-color: red; */
+    background-image: url("../../Asset/bgc.jpg");
+    height: 98vh;
+    padding-top: 15px;
+    box-shadow: inset 1em 1em 15em 7em rgb(0, 0, 0);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+    /* background-color: black; */
+}
+.logo{
+    padding-left: 30px;
+}
+.login-route{
+    padding-right: 50px;
+}
+.text-field-div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15em;
+    align-items: center;
+}
+.text-field-div > h1{
+    font-size: 48px;
+    
+}
+.text-field-div > h3{
+    font-weight: 400;
+    
+}
+.text-field-div > h2{
+    font-weight: 400;
+    
+}
+
+.text-field{
+    display: flex;
+    height: 75px;
+    width: 700px;
+    background-color: red;
+    margin-top: 15px;
+}
