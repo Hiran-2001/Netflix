@@ -12,7 +12,7 @@ function SigninPage() {
     <div className='Sign-main'>
       <div className="nav">
         <div className="logo">
-         <img style={{height:"30px" }} src={logo} alt="" />
+         <img style={{height:"50px" }} src={logo} alt="" />
         </div>
         <div className="login-route">
         <Button style={{backgroundColor:"red"}} variant="contained">Sign in</Button>
@@ -26,7 +26,7 @@ function SigninPage() {
          <h3>React to watch ? Enter your email to create or restart your membership</h3>
          <div className="text-field">
          <input style={{backgroundColor:"white",border:"none",width:"550px",paddingLeft:"15px"}}  placeholder="Email address" />
-         <Button onClick={()=>{goHome()}} style={{backgroundColor:"red"}} variant="contained">Get Started  </Button>
+         <Button className='text-field-btn' onClick={()=>{goHome()}} style={{backgroundColor:"red",fontSize:"20px"}} variant="contained">Get Started  </Button>
          </div>
     </div>
     </div>
