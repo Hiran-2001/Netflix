@@ -1,11 +1,11 @@
 .home-page-main {
-  background-color: red;
-  height: 60ex;
+  /* background-color: red; */
+  height: 65ex;
   width: 100%;
 }
 .home-page-main-image {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 60vh;
+  height: 75ex;
 }
