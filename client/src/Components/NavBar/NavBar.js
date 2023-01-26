@@ -30,7 +30,7 @@ function NavBar() {
             <Button>Kids</Button>
         </div>
         <div style={{marginLeft:"20px",fontSize:"25px"}} className="notification">
-           <IoIosNotifications style={{color:"white",marginTop:"5px"}}/>
+           <IoIosNotifications style={{color:"white"}}/>
         </div>
         <div style={{marginLeft:"40px"}} className="avatar">
            <img style={{height:"30px",marginTop:"5px"}} src={avatar} alt="loading" />

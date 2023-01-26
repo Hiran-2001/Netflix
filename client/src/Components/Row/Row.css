@@ -1,0 +1,14 @@
+.card{
+    height: 200px;
+    width: 205px;
+    border-radius: 0;
+    margin-left: 10px;
+}
+#card-main{
+    /* display: flex; */
+    margin-left: 10px;
+    background-color: red;
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+}
