@@ -1,0 +1,9 @@
+#tv-trending-main{
+    background-color: black;
+}
+.tv-trending{
+   background-color: rgb(0, 0, 0);
+   min-height: 250px;
+   overflow-x:scroll;
+   color: white;
+}

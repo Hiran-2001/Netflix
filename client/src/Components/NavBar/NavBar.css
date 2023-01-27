@@ -23,8 +23,9 @@
     width: 50%;
 }
 .search-button{
-    margin-left: 10em;
+    margin-left: 5em;
     /* background-color: blue; */
+    display: flex;
 }
 .search-button >input{
     height: 40px;
@@ -33,6 +34,7 @@
     background-color: black;
     color: white;
     border: none;
+    margin-top: 5px;
 }
 .search-button >input:focus{
     outline: none;

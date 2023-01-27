@@ -1,7 +1,7 @@
 .Sign-main{
     /* background-color: red; */
     background-image: url("../../Asset/bgc.jpg");
-    height: 98vh;
+    height: 100vh;
     padding-top: 15px;
     box-shadow: inset 1em 1em 15em 7em rgb(0, 0, 0);
 }
@@ -21,11 +21,11 @@
     color: white;
     display: flex;
     flex-direction: column;
-    margin-top: 12em;
+    margin-top: 150px;
     align-items: center;
 }
 .text-field-div > h1{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 500;
     
 }
