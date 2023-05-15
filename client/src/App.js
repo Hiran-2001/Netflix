@@ -1,21 +1,19 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import SigninPage from "./Components/SigninPage/SigninPage";
-import LoginPage from "./Components/LoginPage/LoginPage";
+import Details from "./Components/Details/Details";
 import HomePage from "./Components/HomePage/HomePage";
-import TvShows from "./Components/Shows/TV/TvShows";
-import Series from "./Components/Shows/Series/Series";
 import Cinema from "./Components/Shows/Cinema/Cinema";
+import Tv from "./Components/Shows/TV/TvShows"
+import { Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <Routes>
-      <Route index element={<SigninPage />} />
-        <Route path="/home" element={<HomePage />} />
-        <Route path="tv"  element={<TvShows />} />
-        <Route path="series" element={<Series />} />
-        <Route path="cinema"  element={<Cinema />} />
-        <Route path="login"  element={<LoginPage />} />
-    </Routes>
+    <div>
+      <Routes>
+        <Route path="/home" index element={<HomePage />} />
+        <Route path="/cinema" element={<Cinema />} />
+        <Route path="/tv" element={<Tv/>} />
+        <Route path="/details/:id" element={<Details/>}/>
+      </Routes>
+    </div>
   );
 }
 

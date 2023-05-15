@@ -4,6 +4,7 @@ import "./HomePage.css";
 import axios from "axios";
 import { Button } from "@mui/material";
 import { GrPlayFill, GrAdd } from "react-icons/gr";
+import { Link } from "react-router-dom";
 function HomePage() {
   function randomIntFromInterval(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -67,12 +68,15 @@ function HomePage() {
         <div className="popular-div">
           {trending.map((e) => {
             return (
-              <div  className="popular-card">
-                <img
-                  src={fetchPoster(e.backdrop_path)}
-                  className="card-img"
-                  alt="..."
-                />
+              <div className="popular-card">
+                <Link to={`/details/${e.id}`}>
+                  <img
+                    src={fetchPoster(e.backdrop_path)}
+                    className="card-img"
+                    alt="..."
+                  />
+                  <h1>{e.original_title}</h1>
+                </Link>
               </div>
             );
           })}
