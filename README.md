@@ -1,1 +1,1 @@
-This is the readme for this file. Keep a Change
+This is a simple messaging application.
